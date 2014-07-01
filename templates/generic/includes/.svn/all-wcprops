@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/blog/!svn/ver/1/templates/generic/includes
+END
+comment.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blog/!svn/ver/1/templates/generic/includes/comment.html
+END
+disqus_counts.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blog/!svn/ver/1/templates/generic/includes/disqus_counts.html
+END
+rating.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blog/!svn/ver/1/templates/generic/includes/rating.html
+END
+comments.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/templates/generic/includes/comments.html
+END
+disqus_sso.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blog/!svn/ver/1/templates/generic/includes/disqus_sso.html
+END
+disqus_comments.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blog/!svn/ver/1/templates/generic/includes/disqus_comments.html
+END

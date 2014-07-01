@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 17
+/blog/!svn/ver/21
+END
+local_settings.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/blog/!svn/ver/17/local_settings.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/blog/!svn/ver/1/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/blog/!svn/ver/19/settings.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/blog/!svn/ver/17/__init__.pyc
+END
+settings.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/blog/!svn/ver/9/settings.pyc
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/blog/!svn/ver/9/urls.py
+END
+urls.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/blog/!svn/ver/9/urls.pyc
+END
+fabfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/blog/!svn/ver/1/fabfile.py
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/blog/!svn/ver/1/manage.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/blog/!svn/ver/1/wsgi.py
+END
+local_settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/blog/!svn/ver/17/local_settings.py
+END
+requirements.txt
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/blog/!svn/ver/1/requirements.txt
+END

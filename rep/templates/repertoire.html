@@ -1,0 +1,26 @@
+{% extends 'pages/page.html' %}
+
+{% block main %}
+{% for composer in composers %}
+	<div>
+		<h2>{{ composer.get_first_name }} {{ composer.get_last_name }}</h2>
+		<ul>
+		{% for work in composer.musicalwork_set.all %}
+			<li>{{ work.get_full_title }} 
+				<small>
+					{% for tag in work.tags.all %}
+					<a href="/rep/tag/{{ tag.id }}">{{ tag.name }}</a>{% if forloop.counter != work.tags.count %},{% endif %}
+					{% endfor %}
+				</small>
+			{% if work.movement_set.count > 0 %}
+			<ol>
+				{% for movement in work.movement_set.all %}
+				<li>{{ movement.title }}</li>
+				{% endfor %}
+			</ol>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	</div>
+{% endfor %}
+{% endblock %}

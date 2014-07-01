@@ -1,0 +1,19 @@
+{% extends "pages/page.html" %}
+
+{% block main %}
+
+    {% for project in projects %}
+    <div class="project_container">
+
+        <a href="show/{{ project.id }}">
+            <div class="project_listing">
+
+                <img src="{{ MEDIA_URL }}{{ project.get_main_photo.file }}">
+                
+            </div>
+        </a>
+        <div class="project_title">{{ project.title }}</div>
+    </div>
+    {% endfor %}
+
+{% endblock %}

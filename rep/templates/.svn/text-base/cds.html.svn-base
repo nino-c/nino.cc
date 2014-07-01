@@ -1,0 +1,21 @@
+{% extends 'pages/page.html' %}
+
+{% block main %}
+{% for item in cds %}
+	
+	<img src="{{ item.image }}" width="200" />
+
+	<h2><a href="#">{{ item.title }}</a></h2>
+	<h6 class="post-meta">{{ item.producer }}</h6>
+	<strong>{{ item.release_year }}</strong><br />
+
+	<em>{{ item.description }}</em><br />
+
+	<div class="blog-list-detail">
+		{% for link in item.cdlink_set.all %}
+			<a target="_blank" href="{{ link.url }}">{{ link.url }}</a><br />
+		{% endfor %}
+	</div>
+
+{% endfor %}
+{% endblock %}

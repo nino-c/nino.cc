@@ -1,0 +1,14 @@
+<form action="/rep/addtags" method="POST">
+	{% csrf_token %}
+	{% for work in works %}
+		<h2>{{ work.get_full_title }}</h2>
+		{% for tag in tags %}
+			<input type="checkbox" name="work{{ work.id }}[]" value="{{ tag.id }}"
+			{% if tag in work.tags.all %} checked {% endif %}/>
+			{{ tag.name }}
+			<br />
+		{% endfor %}
+		<hr />
+	{% endfor %}
+	<input type="submit" value="Save" />
+</form>

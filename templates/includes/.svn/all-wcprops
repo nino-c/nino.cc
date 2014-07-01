@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/blog/!svn/ver/1/templates/includes
+END
+form_fields.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/blog/!svn/ver/1/templates/includes/form_fields.html
+END
+pagination.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blog/!svn/ver/1/templates/includes/pagination.html
+END
+editable_toolbar.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/templates/includes/editable_toolbar.html
+END
+editable_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blog/!svn/ver/1/templates/includes/editable_form.html
+END
+user_panel.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blog/!svn/ver/1/templates/includes/user_panel.html
+END
+editable_loader.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blog/!svn/ver/1/templates/includes/editable_loader.html
+END
+form_errors.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/blog/!svn/ver/1/templates/includes/form_errors.html
+END
+footer_scripts.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blog/!svn/ver/1/templates/includes/footer_scripts.html
+END
+search_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/blog/!svn/ver/1/templates/includes/search_form.html
+END

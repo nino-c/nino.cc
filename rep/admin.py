@@ -1,0 +1,28 @@
+from django.contrib import admin
+from django.forms import SelectMultiple
+#from nested_inlines.admin import NestedModelAdmin, NestedTabularInline, admin.StackedInline
+from rep.models import *
+
+class MovementInline(admin.StackedInline):
+	model = Movement
+	extra = 3
+
+class MusicalWorkAdmin(admin.ModelAdmin):
+	inlines = [MovementInline]
+	formfield_overrides = { models.ManyToManyField: {'widget': SelectMultiple(attrs={'size':'10'})}, }
+
+#########################################################
+
+class CDInline(admin.StackedInline):
+	model = CDlink
+	extra = 10
+
+class CDAdmin(admin.ModelAdmin):
+	inlines = [CDInline]
+
+admin.site.register(Composer)
+admin.site.register(MusicalWork, MusicalWorkAdmin)
+admin.site.register(Movement)
+admin.site.register(Tag)
+admin.site.register(PressQuote)
+admin.site.register(CD, CDAdmin)

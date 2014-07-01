@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h2>Press Quotes</h2>
+{% for quote in quotes %}
+	<blockquote>"{{ quote.quote }}"
+		<br />
+		<small><strong>{{ quote.publication }}</strong></small>
+	</blockquote>
+{% endfor %}
+{% endblock %}

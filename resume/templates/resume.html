@@ -1,0 +1,66 @@
+{% extends 'pages/page.html' %}
+
+{% block main %}
+
+<!--
+<table width="100%">
+	<tr valign="top">
+		<td align="left">
+		<h1>
+			{{ resume.title }}
+			<br />
+			<em><small>{{ resume.subtitle }}</small></em>
+		</h1>
+		</td>
+		<td align="right">
+			<small>
+				{{ resume.address|escape|linebreaks }}
+				<em>{{ resume.phone }}</em><br />
+				<strong><a href="mailto:{{ resume.email }}">{{ resume.email }}</a></strong>
+			</small>
+		</td>
+	</tr>
+</table>
+-->
+
+<em>{{ resume.summary }}</em>
+
+{% for section in resume.mainsection_set.all %}
+	<h2><a href="javascript:void">{{ section.heading }}</a></h2>
+	{% for s in section.textcontent_set.all %}
+		{{ s.text }}
+	{% endfor %}
+	{% for ls in section.listcontent_set.all %}
+		<ul>
+		{% for li in ls.listitem_set.all %}
+			<li>{{ li.text }}</li>
+		{% endfor %}
+		</ul>
+	{% endfor %}
+	{% for table in section.tablecontent_set.all %}
+		<table cellspacing="10" width="100%">
+		{% for row in table.tablerow_set.all %}
+			<tr valign="top">
+				<td align="left" width="35%"><strong>{{ row.label }}</strong></td>
+				<td>{{ row.tablealphalistitem_set.all|join:', ' }}</td>
+			</tr>
+		{% endfor %}
+		</table>
+	{% endfor %}
+	{% for ce in section.chronologicalentry_set.all %}
+		<p>
+			<table width="100%">
+				<tr>
+					<td align="left"><strong>{{ ce.heading }}</strong></td>
+					<td align="right">{{ ce.begin_year }}{% if ce.end_year %} - {{ ce.end_year }}{% endif %}</td>
+				</tr>
+			</table>
+			<em>{{ ce.subheading }}</em><br />
+			{{ ce.text }}
+		</p>
+		<p>&nbsp;</p>
+		
+	{% endfor %}
+{% endfor %}
+
+{% endblock %}

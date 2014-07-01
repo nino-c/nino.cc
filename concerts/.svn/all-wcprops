@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/blog/!svn/ver/13/concerts
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/blog/!svn/ver/13/concerts/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/blog/!svn/ver/13/concerts/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/blog/!svn/ver/13/concerts/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/blog/!svn/ver/13/concerts/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/blog/!svn/ver/13/concerts/urls.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/blog/!svn/ver/13/concerts/admin.py
+END

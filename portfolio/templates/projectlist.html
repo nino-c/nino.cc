@@ -1,0 +1,29 @@
+{% extends "pages/page.html" %}
+
+{% block main %}
+
+    {% for project in projects %}
+    
+    <h2><a href="show/{{ project.id }}">{{ project.title }}</a></h2>
+    <h6 class="post-meta">
+        Categories:
+        {% for category in project.categories.all %}
+            <a href="#">{{ category.name }}</a>{% if not forloop.last %}, {% endif %}
+        {% endfor %}
+    </h6>
+
+    
+
+    <div class="blog-list-detail">
+        {% if project.show_photos %}
+        <a href="show/{{ project.id }}">
+            <img src="{{ MEDIA_URL }}{{ project.get_main_photo.file }}" style="float: right; margin: 0px 0px 15px 15px;" width="300" />
+        </a>
+        {% endif %}
+        {{ project.summary }}
+	<br style="clear:both;" />
+    </div>
+
+    {% endfor %}
+
+{% endblock %}

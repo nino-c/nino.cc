@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/blog/!svn/ver/1/static/mezzanine/js/admin
+END
+jquery.mjs.nestedSortable.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blog/!svn/ver/1/static/mezzanine/js/admin/jquery.mjs.nestedSortable.js
+END
+collapse_backport.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blog/!svn/ver/1/static/mezzanine/js/admin/collapse_backport.js
+END
+login.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blog/!svn/ver/1/static/mezzanine/js/admin/login.js
+END
+keywords_field.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/blog/!svn/ver/1/static/mezzanine/js/admin/keywords_field.js
+END
+page_tree.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blog/!svn/ver/1/static/mezzanine/js/admin/page_tree.js
+END
+form_entries.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/static/mezzanine/js/admin/form_entries.js
+END
+navigation.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blog/!svn/ver/1/static/mezzanine/js/admin/navigation.js
+END
+ajax_csrf.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blog/!svn/ver/1/static/mezzanine/js/admin/ajax_csrf.js
+END
+dynamic_inline.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/blog/!svn/ver/1/static/mezzanine/js/admin/dynamic_inline.js
+END

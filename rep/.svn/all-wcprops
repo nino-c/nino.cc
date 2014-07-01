@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/blog/!svn/ver/21/rep
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/blog/!svn/ver/1/rep/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/blog/!svn/ver/1/rep/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/blog/!svn/ver/1/rep/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/blog/!svn/ver/1/rep/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/blog/!svn/ver/10/rep/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/blog/!svn/ver/1/rep/urls.py
+END

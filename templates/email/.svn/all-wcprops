@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/blog/!svn/ver/1/templates/email
+END
+form_response.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blog/!svn/ver/1/templates/email/form_response.txt
+END
+form_response_copies.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/templates/email/form_response_copies.txt
+END
+form_response.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blog/!svn/ver/1/templates/email/form_response.html
+END
+comment_notification.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/templates/email/comment_notification.txt
+END
+form_response_copies.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/templates/email/form_response_copies.html
+END
+base.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/blog/!svn/ver/1/templates/email/base.txt
+END
+comment_notification.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/templates/email/comment_notification.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/blog/!svn/ver/1/templates/email/base.html
+END

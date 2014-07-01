@@ -1,0 +1,25 @@
+{% extends 'pages/page.html' %}
+
+{% block main %}
+{% for item in items %}
+	<h2><a href="show/{{ item.id }}">{{ item.source_title }}</a></h2>
+	<h6 class="post-meta">
+		Categories:
+		{% for category in item.categories.all %}
+			<a href="#">{{ category.name }}</a>{% if not forloop.last %}, {% endif %}
+		{% endfor %}
+	</h6>
+
+	{{ item.description }}
+
+	<div class="blog-list-detail">
+		<p>
+			<a href="show/{{ item.id }}">view source</a>
+			{% if item.deployment_url %}
+			| <a href="{{ item.deployment_url }}">view live deployment</a>
+			{% endif %}
+		</p>
+	</div>
+
+{% endfor %}
+{% endblock %}

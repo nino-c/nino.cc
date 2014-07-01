@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/blog/!svn/ver/1/templates/pages
+END
+page.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/blog/!svn/ver/1/templates/pages/page.html
+END
+gallery.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/blog/!svn/ver/1/templates/pages/gallery.html
+END
+form.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/blog/!svn/ver/1/templates/pages/form.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/blog/!svn/ver/1/templates/pages/index.html
+END
+richtextpage.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blog/!svn/ver/1/templates/pages/richtextpage.html
+END

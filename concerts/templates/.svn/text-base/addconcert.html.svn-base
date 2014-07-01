@@ -1,0 +1,13 @@
+{% extends "pages/page.html" %}
+
+{% block main %}
+
+    <form action="" method="POST" class="mezzanine-form nino-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="form-actions">
+            <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+        </div>
+    </form>
+
+{% endblock %}

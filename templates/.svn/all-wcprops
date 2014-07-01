@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/blog/!svn/ver/10/templates
+END
+search_results.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/blog/!svn/ver/1/templates/search_results.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/blog/!svn/ver/1/templates/index.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/blog/!svn/ver/22/templates/base.html
+END

@@ -1,0 +1,54 @@
+{% extends "pages/page.html" %}
+
+{% load mezzanine_tags staticfiles %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static "mezzanine/css/magnific-popup.css" %}">
+{% endblock extra_css %}
+
+{% block main %}
+{{ block.super }}
+
+
+<h2><a href="javascript:void">{{ project.project_title }}</a></h2>
+{% if project.url %}<a target="_blank" href="{{ project.url }}">{{ project.url }}</a><br />{% endif %}
+<h6 class="post-meta">{{ project.begin_date }}{% if project.end_date %} - {{project.end_date}}{% endif %}</h6>
+<em>{{ project.summary }}</em>
+
+
+
+{% if project.show_photos %}
+<div class="gallery row">
+{% with project.get_gallery.images.all as images %}
+{% for image in images %}
+<div class="col-xs-4 col-sm-3">
+    <a class="thumbnail" rel="#image-{{ image.id }}" title="{{ image.description }}" href="{{ image.file.url }}">
+        <img class="img-responsive" src="{{ MEDIA_URL }}{% thumbnail image.file 131 75 %}">
+    </a>
+</div>
+{% endfor %}
+{% endwith %}
+</div>
+{% endif %}
+
+<strong>Project Specs:</strong><br />
+{{ project.specs }}
+
+{% endblock %}
+
+{% block extra_js %}
+{{ block.super }}
+<script src="{% static "mezzanine/js/magnific-popup.js" %}"></script>
+<script>
+$(document).ready(function() {
+    $('.gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true,
+        }
+    });
+});
+</script>
+
+{% endblock %}

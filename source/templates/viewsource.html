@@ -1,0 +1,25 @@
+{% extends 'pages/page.html' %}
+
+{% block main %}
+
+	<h2><a href="#">{{ item.source_title }}</a></h2>
+	<h6 class="post-meta">
+		Categories:
+		{% for category in item.categories.all %}
+			<a href="#">{{ category.name }}</a>{% if not forloop.last %}, {% endif %}
+		{% endfor %}
+	</h6>
+
+	{{ item.description }}
+
+	{% if item.deployment_url %}
+	<br /><a href="{{ item.deployment_url }}">view live deployment</a>
+	{% endif %}
+
+	
+
+	<br /><br />
+
+	<pre class="sh_{{ item.language }}">{{ item.source_code }}</pre>
+
+{% endblock %}

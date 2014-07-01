@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/blog/!svn/ver/1/deploy
+END
+nginx.conf
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/blog/!svn/ver/1/deploy/nginx.conf
+END
+crontab
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/blog/!svn/ver/1/deploy/crontab
+END
+gunicorn.conf.py.template
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/blog/!svn/ver/1/deploy/gunicorn.conf.py.template
+END
+local_settings.py.template
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blog/!svn/ver/1/deploy/local_settings.py.template
+END
+supervisor.conf
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/blog/!svn/ver/1/deploy/supervisor.conf
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/blog/!svn/ver/12/nested_inlines
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/blog/!svn/ver/12/nested_inlines/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/blog/!svn/ver/12/nested_inlines/__init__.py
+END
+helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/blog/!svn/ver/12/nested_inlines/helpers.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/blog/!svn/ver/12/nested_inlines/models.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/blog/!svn/ver/12/nested_inlines/forms.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/blog/!svn/ver/12/nested_inlines/admin.py
+END

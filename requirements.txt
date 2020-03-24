@@ -34,7 +34,7 @@ adium-theme-ubuntu==0.3.4
 apt-xapian-index==0.45
 argparse==1.2.1
 astroid==1.0.1
-bleach==1.4
+bleach==3.1.2
 chardet==2.0.1
 classicmenu-indicator==0.09
 colorama==0.2.5

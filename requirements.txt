@@ -4,7 +4,7 @@ Django==1.6.2
 EditObj==0.5.7
 Elixir==0.7.1
 Flask==0.10.1
-Jinja2==2.7.2
+Jinja2==2.11.3
 Kivy==1.8.0
 Mako==0.9.1
 Markdown==2.4

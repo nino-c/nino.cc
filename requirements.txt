@@ -140,7 +140,7 @@ translationstring==1.1
 tzlocal==1.0
 uTidylib==0.2
 unity-lens-photos==1.0
-urllib3==1.7.1
+urllib3==1.26.5
 venusian==1.0a8
 vispy==0.2.1
 wadllib==1.3.2

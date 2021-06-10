@@ -1,6 +1,6 @@
 Cerealizer==0.8.1
 Chameleon==2.16
-Django==1.6.2
+Django==2.2.24
 EditObj==0.5.7
 Elixir==0.7.1
 Flask==0.10.1

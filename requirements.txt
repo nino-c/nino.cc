@@ -78,7 +78,7 @@ mercurial==2.8.2
 mezzanine-pagedown==0.6
 multiblend==1.4
 nose==1.3.1
-numpy==1.8.1
+numpy==1.22.0
 oauth==1.0.1
 oauthlib==0.6.1
 oneconf==0.3.7

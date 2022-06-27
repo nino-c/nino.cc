@@ -121,7 +121,7 @@ pyxattr==0.5.1
 pyxdg==0.25
 pyzmq==14.0.1
 radiotray==0.7.3
-reportlab==3.0
+reportlab==3.5.55
 repoze.lru==0.6
 requests==2.2.1
 requests-oauthlib==0.4.0

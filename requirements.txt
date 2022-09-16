@@ -6,7 +6,7 @@ Elixir==0.7.1
 Flask==0.10.1
 Jinja2==2.7.2
 Kivy==1.8.0
-Mako==0.9.1
+Mako==1.2.2
 Markdown==2.4
 MarkupSafe==0.18
 Mezzanine==3.1.4
